@@ -5,20 +5,3 @@
   position: absolute;
   left: 50px;
 }
-
-#cell1 {
-  width: 20px;
-  height: 20px;
-  border: 3px dotted #000;
-  left: 0px;
-  top: 0px;
-  margin-right: 0%;
-}
-#cell2 {
-  width: 20px;
-  height: 20px;
-  border: 3px dotted #000;
-  position: absolute;
-  left: 24px;
-  top: 0px;
-}

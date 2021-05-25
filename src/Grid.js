@@ -1,17 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Grid.css'
+import useStyles from './Grid.styles';
 
 export default function Grid() {
-
-    const myCanvas = document.getElementById("myCanvas")
-
-
+    const classes = useStyles()
+    const [cells] = useState( Array.from({ length: 10000}));
     return (
-        <div>
-            <div id = "myCanvas">
-                <div id = "cell1"></div>
-                <div id = "cell2"></div>
-            </div>
+        <div className = {classes.grid}>
+            {cells.map(() => <div className={classes.cell}></div>)}
         </div>
     )
 }

@@ -1,13 +1,15 @@
 import './App.css';
 import ButtonGroup  from './ButtonGroup'
 import Grid from './Grid'
+import useStyles from './App.styles'
+
 
 function App() {
+  const classes = useStyles();
+
   return (
-    <div>
-      <div id = "gap"></div>
+    <div className = {classes.app}>
       <ButtonGroup />
-      <div id = "gap"></div>
       <Grid />
     </div>
   );

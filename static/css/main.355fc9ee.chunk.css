@@ -1,0 +1,2 @@
+*{margin:0;padding:0;box-sizing:border-box}body{width:100vw;height:100vh;overflow:hidden}#root{width:100%;height:100%}#buttons{display:grid;grid-template-columns:1fr 1fr 1fr;grid-column-gap:50px;-webkit-column-gap:50px;column-gap:50px;margin:20px 0}#inc-dec,#next-prev,#start-stop{display:grid;grid-template-columns:1fr 1fr;grid-column-gap:5px;-webkit-column-gap:5px;column-gap:5px}#myCanvas{width:1400px;height:600px;border:3px dotted #000;position:absolute;left:50px}
+/*# sourceMappingURL=main.355fc9ee.chunk.css.map */

@@ -93,7 +93,7 @@ function App() {
         {
           width : 20,
           height: 20,
-          backgroundColor: grid[i][k] ? 'pink' : undefined,
+          backgroundColor: grid[i][k] ? 'black' : undefined,
           border: "solid 1px black"
         }
       }/>))}
